@@ -18,9 +18,8 @@
 		font-family: verdana;
 		background-image: url('Images/AYVHand.jpg');
 		background-repeat: no-repeat;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-size: cover;
-		width:100%;
 		z-index=0;
 	}
 }
