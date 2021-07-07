@@ -19,7 +19,8 @@
 		background-image: url('Images/AYVHand.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		background-size: contain;
+		background-size: cover;
+		position: relative;
 	}
 }
 Air America Regular 
