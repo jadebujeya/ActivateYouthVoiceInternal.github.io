@@ -1,10 +1,25 @@
-body {
-	background-color: rgba(255, 148, 170, 0.6); 
-	font-family: verdana;
-	background-image: url('Images/AYVLogo.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+@media (min-width:300px) 
+{
+	body {
+		background-color: rgba(255, 148, 170, 0.6); 
+		font-family: verdana;
+		background-image: url('Images/AYVLogo.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+}
+
+@media (max-width:301px) 
+{
+	body {
+		background-color: rgba(255, 148, 170, 0.6); 
+		font-family: verdana;
+		background-image: url('Images/AYVHand.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
 }
 Air America Regular 
 h1 {
