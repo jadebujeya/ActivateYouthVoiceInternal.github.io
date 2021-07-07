@@ -1,4 +1,4 @@
-@media (min-width:300px) 
+@media (min-width:301px) 
 {
 	body {
 		background-color: rgba(255, 148, 170, 0.6); 
@@ -10,7 +10,7 @@
 	}
 }
 
-@media (max-width:301px) 
+@media (max-width:300px) 
 {
 	body {
 		background-color: rgba(255, 148, 170, 0.6); 
