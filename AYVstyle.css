@@ -18,12 +18,11 @@
 		font-family: verdana;
 		background-image: url('Images/AYVHand.jpg');
 		background-repeat: no-repeat;
-		background-attachment: scroll;
+		ackground-attachment: scroll;
 		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-io-background-size: cover;
-		max-width:100%;
+		width:100%;
+		position: fixed;
+		z-index:-1;
 	}
 }
 Air America Regular 
