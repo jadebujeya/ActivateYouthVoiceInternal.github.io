@@ -109,3 +109,10 @@ td {
 .googleDocsList a:hover {
 	color: white;
 }
+
+footer {
+	background-color: pink;
+	padding: 10px;
+	text-align: center;
+	color; black;
+}
