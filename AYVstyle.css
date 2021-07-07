@@ -22,8 +22,8 @@
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
-		-o-background-size: cover;
-
+		-io-background-size: cover;
+		max-width:100%
 	}
 }
 Air America Regular 
