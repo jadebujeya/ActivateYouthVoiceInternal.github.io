@@ -1,0 +1,42 @@
+body {
+	background-color: rgba(255, 148, 170, 0.6); 
+	font-family: verdana;
+}
+h1 {
+  color: white;
+}
+h2 {
+	color: rgba(200,7,232,1);
+}
+p {
+  color: grey;
+  border: 2px solid black;
+  padding: 30px;
+  margin: 50px;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+#t01 {
+  width: 100%;
+  background-color: #f1f1c1;
+}
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+

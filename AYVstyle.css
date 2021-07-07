@@ -1,0 +1,91 @@
+body {
+	background-color: rgba(255, 148, 170, 0.6); 
+	font-family: verdana;
+	background-image: url('Images/AYVLogo.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+Air America Regular 
+h1 {
+  color: white;
+}
+h2 {
+	color: rgba(200,7,232,1);
+}
+p {
+  color: black;
+  padding: 15px;
+  margin: 15px;
+  border: 2px solid black;
+  text-decoration: bold;
+}
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: bold;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: bold;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: bold;
+}
+
+img
+{
+	width: 100%;
+}
+
+td {
+  text-align: left;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #111111;
+}
+
+.googleDocsList {
+	color: #333333;
+	background-color: rgba(255, 148, 170, 0.2);
+}
+
+.googleDocsList a {
+	color: #333333;
+}
+
+.googleDocsList a:hover {
+	color: white;
+}
