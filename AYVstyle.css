@@ -18,7 +18,7 @@
 		font-family: verdana;
 		background-image: url('Images/AYVHand.jpg');
 		background-repeat: no-repeat;
-		ackground-attachment: scroll;
+
 		background-size: cover;
 		width:100%;
 		position: fixed;
@@ -114,4 +114,36 @@ footer {
 	padding: 10px;
 	text-align: center;
 	color; pink;
+}
+
+nav {
+	-webkit-flex: 1;
+	-mx-flex: 1;
+	flex: 1;
+	background: #333333;
+	padding: 0;
+	
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111111;
 }
