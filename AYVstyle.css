@@ -26,16 +26,21 @@
 Air America Regular 
 h1 {
   color: white;
+  
 }
 h2 {
-	color: rgba(200,7,232,1);
+	color: black;
+	
+}
+h3 {
+	color: black;
 }
 p {
   color: black;
-  padding: 15px;
+  padding: 5px;
   margin: 15px;
   border: 2px solid black;
-  text-decoration: bold;
+  background-color: rgba(228,195,226,0.5);
 }
 a:link {
   color: pink;
@@ -96,7 +101,10 @@ td {
 
 .googleDocsList {
 	color: #333333;
-	background-color: rgba(255, 148, 170, 0.2);
+	background-color: rgba(228,195,226,0.5);
+	border: 2px solid black;
+	padding: 15px;
+	margin: 15px;
 }
 
 .googleDocsList a {
@@ -136,6 +144,10 @@ nav a {
   text-decoration: none;
 }
 
+ul {
+	margin: 15px;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -156,6 +168,32 @@ nav a {
   text-decoration: none;
 }
 
+ol {
+	color: black;
+	padding: 5px;
+	margin: 15px;
+	border: none;
+}
+
 nav a:hover {
   background-color: #111111;
 }
+
+textarea {
+	background: transparent;
+}
+
+input {
+	background: transparent;
+}
+
+input[type="submit"]{
+	cursor: pointer;
+}
+
+table {
+	  background-color: rgba(228,195,226,0.5);
+}
+
+/*dark pink = rgba(201,137,171,255)
+dark purple = rgba(104,74,144,255)
