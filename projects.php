@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-AU">
-<head>
-<title>Activate Youth Voice Internal</title>
-<link rel="stylesheet" href="AYVstyle.css">
-<meta http-equiv="refresh" content="300">
-<meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1.0,maximum-scale=1.0">
-<!-- look up <base> you're going to need it, specifies base url for page-->
-</head>
-<body>
-<!--<img src="AYVLogo.jpg" alt="AYV Logo">
-<br>-->
-<script src="head.js"></script>
+<?php
+	include_once 'head.php';
+?>
 
 <h2>Current Projects</h2>
 <p>
@@ -33,9 +23,6 @@ Dates: Check Start - Present
 </div>
 
 
-<script src="foot.js"></script>
-
-</body>
-</html>
-
-<!-- Air America Regular  -->
+<?php 
+include_once 'foot.php';
+?>
