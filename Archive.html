@@ -6,6 +6,12 @@
 <!-- 
 <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> 
 -->
+    <script src="jquery.js"></script>
+	<script> 
+    function(){
+      ("#test1").load("new 1.html"); 
+    };
+    </script>
 </head>
 <body style="background-color:powderblue;">
 
@@ -381,6 +387,28 @@ z = x + y;
 </code>
 
 <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo1').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo1">Loading...</p>
+
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo2">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+<link href="new 1.html" rel="import" />
+Does not work. ^
+
+<script src="b.js"></script>
+
+
 
 <h3>Contact Information</h3>
 <p>
